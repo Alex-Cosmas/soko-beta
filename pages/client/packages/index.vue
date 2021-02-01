@@ -4,7 +4,7 @@
       <div class="w-full">
         <!-- Nav Link -->
 
-        <div class="my-5">
+        <div class="mt-10 w-4/6 flex justify-end">
           <nuxt-link
             to="/xstate"
             class="bg-primary text-white px-4 py-1 rounded-md"
