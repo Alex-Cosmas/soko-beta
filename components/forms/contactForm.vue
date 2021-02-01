@@ -62,7 +62,7 @@
 
                         </div>
 
-                        <button @click.prevent="next()" class="bg-primary px-4 py-2 rounded text-white uppercase">Next Step</button>
+                        <button class="bg-primary px-4 py-2 rounded text-white uppercase">Next Step</button>
 
                     </div>
 
@@ -99,12 +99,17 @@
 
                             </div>
 
-                            <button class="bg-primary px-4 py-2 rounded text-white uppercase">Next Step</button>
+                            <div class="flex justify-between">
+                                 <button class="bg-primary px-4 py-2 rounded text-white uppercase"> < Go Back</button>
 
-                            <button class="bg-primary px-4 py-2 rounded text-white uppercase">Next Step</button>
+                             <nuxt-link to="/client/packages/uploaded" class="bg-primary px-4 py-2 rounded text-white uppercase">+ Add Package</nuxt-link>
+                            </div>
 
-                            <button @click.prevent="prev()">Back</button>
-                            <button @click.prevent="next()">Next</button>
+                           
+
+                           
+
+                          
 
                         </div>
 

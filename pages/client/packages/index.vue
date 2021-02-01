@@ -4,6 +4,14 @@
       <div class="w-full">
         <!-- Nav Link -->
 
+        <div class="my-5">
+          <nuxt-link
+            to="/xstate"
+            class="bg-primary text-white px-4 py-1 rounded-md"
+            >Add New Package</nuxt-link
+          >
+        </div>
+
         <NavRoutes />
 
         <div class="flex w-full">
@@ -145,9 +153,7 @@
 import NavRoutes from "~/components/NavRoutes/packages";
 export default {
   components: {
-    NavRoutes,
-  },
+    NavRoutes
+  }
 };
 </script>
-
-   
